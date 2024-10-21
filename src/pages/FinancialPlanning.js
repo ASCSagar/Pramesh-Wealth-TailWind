@@ -1,4 +1,3 @@
-// src/pages/FinancialPlanning.js
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import GoalsAssessment from '../components/financial-planning/GoalsAssessment';
