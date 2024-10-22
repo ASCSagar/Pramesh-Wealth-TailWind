@@ -173,7 +173,6 @@ const HomePage = () => {
         </Slider>
       </section>
 
-      {/* CTA */}
       <section className="py-20 px-4 text-center bg-primary-500 text-white">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
           Ready to Take Control of Your Finances?

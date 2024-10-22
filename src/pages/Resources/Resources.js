@@ -1,10 +1,10 @@
 // src/pages/Resources.js
-import React from 'react';
-import Layout from '../components/layout/Layout';
-import BlogPosts from '../components/resources/BlogPosts';
-import EducationalGuides from '../components/resources/EducationalGuides';
-import MarketUpdates from '../components/resources/MarketUpdates';
-import Calculators from '../components/resources/Calculators';
+import React from "react";
+import Layout from "../../components/layout/Layout";
+import BlogPosts from "./resources/BlogPosts";
+import EducationalGuides from "./resources/EducationalGuides";
+import MarketUpdates from "./resources/MarketUpdates";
+import Calculators from "./resources/Calculators";
 
 const Resources = () => {
   return (
