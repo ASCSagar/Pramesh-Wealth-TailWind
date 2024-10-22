@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -13,17 +13,41 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><Link to="/" className="hover:text-primary-300">Home</Link></li>
-              <li><Link to="/services" className="hover:text-primary-300">Services</Link></li>
-              <li><Link to="/about" className="hover:text-primary-300">About Us</Link></li>
-              <li><Link to="/contact" className="hover:text-primary-300">Contact</Link></li>
+              <li>
+                <Link to="/" className="hover:text-primary-300">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to="/services" className="hover:text-primary-300">
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link to="/about" className="hover:text-primary-300">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="hover:text-primary-300">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
             <h4 className="text-lg font-semibold mb-4">Legal</h4>
             <ul className="space-y-2">
-              <li><Link to="/privacy-policy" className="hover:text-primary-300">Privacy Policy</Link></li>
-              <li><Link to="/terms-of-service" className="hover:text-primary-300">Terms of Service</Link></li>
+              <li>
+                <Link to="/privacy-policy" className="hover:text-primary-300">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link to="/terms-of-service" className="hover:text-primary-300">
+                  Terms of Service
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
@@ -34,7 +58,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 border-t border-neutral-700 pt-8 text-center">
-          <p className="text-sm">&copy; 2023 Pramesh Wealth. All rights reserved.</p>
+          <p className="text-sm">
+            &copy; 2024 Pramesh Wealth. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
